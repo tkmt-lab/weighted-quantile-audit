@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software when using its audit records."
+title: "Weighted quantile audit"
+type: software
+version: "0.1.0"
+authors:
+  - family-names: Takimoto
+    given-names: Tatsuhiko
+abstract: "A command-line audit of statsmodels weighted quantiles with exact rational witnesses for the supplied and binary64 inputs, a separate checker, and pinned observation replay."
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - weighted quantiles
+  - exact arithmetic
+  - statsmodels
+  - reproducibility

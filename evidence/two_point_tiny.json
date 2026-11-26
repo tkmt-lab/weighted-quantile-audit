@@ -1,0 +1,149 @@
+{
+  "arithmetic": {
+    "cumulative_exact": true,
+    "cumulative_hex": [
+      "0x1.0000000000000p-35",
+      "0x1.0000000000000p-34"
+    ],
+    "gap_hex": "0x1.0000000000000p-36",
+    "has_successor": true,
+    "matches_observed": true,
+    "predicted_hex": "0x1.0000000000000p+0",
+    "selected_index": 0,
+    "support": [
+      "0",
+      "2"
+    ],
+    "target_exact": true,
+    "target_hex": "0x1.0000000000000p-36",
+    "tolerance_hex": "0x1.b7cdfd9d7bdbbp-34",
+    "tolerance_hit": true
+  },
+  "axes": {
+    "definition_difference": false,
+    "implementation_value_mismatch": true,
+    "input_rounding_changes_value": false
+  },
+  "binary_input": {
+    "p": "1/4",
+    "w": [
+      "1/34359738368",
+      "1/34359738368"
+    ],
+    "x": [
+      "0",
+      "2"
+    ]
+  },
+  "certificates": {
+    "binary": {
+      "boundary_average": {
+        "L": "0",
+        "U": "1/34359738368",
+        "W": "1/17179869184",
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "target": "1/68719476736",
+        "value": "0"
+      },
+      "inverted_cdf": {
+        "L": "0",
+        "U": "1/34359738368",
+        "W": "1/17179869184",
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "target": "1/68719476736",
+        "value": "0"
+      }
+    },
+    "nominal": {
+      "boundary_average": {
+        "L": "0",
+        "U": "1/34359738368",
+        "W": "1/17179869184",
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "target": "1/68719476736",
+        "value": "0"
+      },
+      "inverted_cdf": {
+        "L": "0",
+        "U": "1/34359738368",
+        "W": "1/17179869184",
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "target": "1/68719476736",
+        "value": "0"
+      }
+    }
+  },
+  "environment": {
+    "distributions": {
+      "formulaic": "1.2.2",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "patsy": "1.0.3",
+      "scipy": "1.17.0",
+      "statsmodels": "0.15.0"
+    },
+    "python": "3.12.14",
+    "weightstats_sha256": "ac7beb736679a0d37901e9edc8beceac280b06d332672dbf0621cd9d780dcdc4"
+  },
+  "hex_input": {
+    "p": "0x1.0000000000000p-2",
+    "w": [
+      "0x1.0000000000000p-35",
+      "0x1.0000000000000p-35"
+    ],
+    "x": [
+      "0x0.0p+0",
+      "0x1.0000000000000p+1"
+    ]
+  },
+  "implementation_diagnosis": "TOLERANCE_ONLY_WITNESS",
+  "input_rounding": {
+    "changed_fields": []
+  },
+  "nominal_input": {
+    "p": "1/4",
+    "w": [
+      "1/34359738368",
+      "1/34359738368"
+    ],
+    "x": [
+      "0",
+      "2"
+    ]
+  },
+  "observed": {
+    "branch_candidates": [
+      "tie:0,2"
+    ],
+    "branch_identification": "tie:0,2",
+    "expected_hex": "0x0.0p+0",
+    "value_hex": "0x1.0000000000000p+0"
+  },
+  "schema": "weighted-quantile-audit/v1",
+  "source": {
+    "audit_sha256": "fdf4ad1766667e4071522e2ff791f60d3cafc2ed253d5dbb13e6f4e29e30e0fc",
+    "checker_sha256": "09c86265ca3f875cf9dc54ed30a26a1d6ba68326b163f759c2c25c9c3af1978e"
+  },
+  "status": "OK",
+  "verification": {
+    "certificates": 4,
+    "checks": [
+      "input_domain",
+      "nominal_binary_hex_binding",
+      "four_exact_certificates",
+      "three_axes",
+      "branch_value_candidates",
+      "diagnostic_consistency"
+    ],
+    "scope": "mathematics_and_saved_diagnostic_consistency; library_authenticity_requires_replay",
+    "valid": true
+  }
+}

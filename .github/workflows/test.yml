@@ -1,0 +1,19 @@
+name: Test and replay weighted quantiles
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - run: bash reproduce.sh --install
+      - name: Check the documented two-point example
+        run: |
+          .venv/bin/python -B audit.py examples/two_point_tiny.json > witness.json
+          python3 -B checker.py witness.json
+          .venv/bin/python -B replay.py witness.json

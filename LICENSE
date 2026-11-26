@@ -1,0 +1,12 @@
+Copyright 2026 Tatsuhiko Takimoto.
+
+The project source code, shell scripts and workflow are licensed under the
+Apache License, Version 2.0. The full terms appear in Apache-2.0.txt.
+
+The original documentation, example inputs, fixtures and generated witness
+data are licensed under Creative Commons Attribution 4.0 International.
+The full terms appear in CC-BY-4.0.txt.
+
+The arithmetic diagnostic follows the statsmodels weightstats implementation.
+Its upstream license notices are included in third_party/statsmodels-LICENSE.txt.
+Dependencies retain their respective licenses.

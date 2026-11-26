@@ -1,0 +1,878 @@
+{
+  "schema": "weighted-quantile-confirmation/v1",
+  "frozen_utc": "2026-11-08T20:28:41.304367+00:00",
+  "method": "Independent fixture author, stdlib Fraction and documented pinned source reasoning; no target API invocation and no day-two CLI results inspected. Expected observations are predictions, not measurements.",
+  "cases": [
+    {
+      "id": "definition_signed",
+      "input": {
+        "x": [
+          "-2",
+          "6"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": true,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "2",
+        "binary_boundary_average": "2",
+        "binary_inverted_cdf": "-2",
+        "observed_hex": "0x1.0000000000000p+1"
+      },
+      "reason": "Exactly t=S1=1; boundary average is 2, inverted CDF is -2."
+    },
+    {
+      "id": "tolerance_left",
+      "input": {
+        "x": [
+          "-2",
+          "6"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "34359738367/68719476736"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": true
+        },
+        "nominal_boundary_average": "-2",
+        "binary_boundary_average": "-2",
+        "binary_inverted_cdf": "-2",
+        "observed_hex": "0x1.0000000000000p+1"
+      },
+      "reason": "Exact gap 2^-35 is below 1e-10; all inputs, cumulative weights and target are binary-exact; returned mean differs from strict value."
+    },
+    {
+      "id": "tolerance_scaled_control",
+      "input": {
+        "x": [
+          "-2",
+          "6"
+        ],
+        "w": [
+          "4",
+          "4"
+        ],
+        "p": "34359738367/68719476736"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "-2",
+        "binary_boundary_average": "-2",
+        "binary_inverted_cdf": "-2",
+        "observed_hex": "-0x1.0000000000000p+1"
+      },
+      "reason": "Exact gap 2^-33 exceeds 1e-10 after multiplying weights by four."
+    },
+    {
+      "id": "tolerance_right_control",
+      "input": {
+        "x": [
+          "-2",
+          "6"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "34359738369/68719476736"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "6",
+        "binary_boundary_average": "6",
+        "binary_inverted_cdf": "6",
+        "observed_hex": "0x1.8000000000000p+2"
+      },
+      "reason": "Target is strictly above first boundary; searchsorted selects final point with no successor."
+    },
+    {
+      "id": "p_rounds_from_above",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "576460752303423489/1152921504606846976"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": true,
+          "input_rounding_changes_value": true,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "4",
+        "binary_boundary_average": "2",
+        "binary_inverted_cdf": "0",
+        "observed_hex": "0x1.0000000000000p+1"
+      },
+      "reason": "Nominal target is above boundary; probability rounds to 1/2, creating an exact binary tie."
+    },
+    {
+      "id": "p_rounds_from_below",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "576460752303423487/1152921504606846976"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": true,
+          "input_rounding_changes_value": true,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "0",
+        "binary_boundary_average": "2",
+        "binary_inverted_cdf": "0",
+        "observed_hex": "0x1.0000000000000p+1"
+      },
+      "reason": "Nominal target is below boundary; probability rounds to 1/2, creating an exact binary tie."
+    },
+    {
+      "id": "decimal_p_overlap",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "3",
+          "2"
+        ],
+        "p": "3/5"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": true,
+          "implementation_value_mismatch": true
+        },
+        "nominal_boundary_average": "2",
+        "binary_boundary_average": "0",
+        "binary_inverted_cdf": "0",
+        "observed_hex": "0x1.0000000000000p+1"
+      },
+      "reason": "Binary p*5 as a rational equals 3-2^-53; floating multiplication rounds to 3 and the implementation returns mean 2. Arithmetic rounding is present, so tolerance-only attribution is invalid."
+    },
+    {
+      "id": "decimal_weights_overlap",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1/10",
+          "3/10"
+        ],
+        "p": "1/4"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": true,
+          "implementation_value_mismatch": true
+        },
+        "nominal_boundary_average": "2",
+        "binary_boundary_average": "0",
+        "binary_inverted_cdf": "0",
+        "observed_hex": "0x1.0000000000000p+1"
+      },
+      "reason": "Nominal t=w1. Exact binary w1-t=2^-57; rounded cumulative total is binary 0.4 and floating t equals binary 0.1, so implementation returns mean 2. Arithmetic rounding is present."
+    },
+    {
+      "id": "rational_x_strict",
+      "input": {
+        "x": [
+          "1/3",
+          "2/3"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/4"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": true,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "1/3",
+        "binary_boundary_average": "6004799503160661/18014398509481984",
+        "binary_inverted_cdf": "6004799503160661/18014398509481984",
+        "observed_hex": "0x1.5555555555555p-2"
+      },
+      "reason": "Input conversion changes the selected rational support value, even though selecting the same support index and correctly rounded implementation value is appropriate."
+    },
+    {
+      "id": "rational_x_tie",
+      "input": {
+        "x": [
+          "1/3",
+          "2/3"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": true,
+          "input_rounding_changes_value": true,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "1/2",
+        "binary_boundary_average": "18014398509481983/36028797018963968",
+        "binary_inverted_cdf": "6004799503160661/18014398509481984",
+        "observed_hex": "0x1.0000000000000p-1"
+      },
+      "reason": "Binary exact mean is 1/2-2^-55 and rounds to 1/2; floating addition also rounds to 1 before division."
+    },
+    {
+      "id": "singleton_rounded_weights",
+      "input": {
+        "x": [
+          "7"
+        ],
+        "w": [
+          "1/7"
+        ],
+        "p": "2/3"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "7",
+        "binary_boundary_average": "7",
+        "binary_inverted_cdf": "7",
+        "observed_hex": "0x1.c000000000000p+2"
+      },
+      "reason": "Weights and p change upon conversion but the sole support value fixes both definitions and the returned answer."
+    },
+    {
+      "id": "rational_weights_interior",
+      "input": {
+        "x": [
+          "-3",
+          "5",
+          "9"
+        ],
+        "w": [
+          "1/3",
+          "2/3",
+          "1/3"
+        ],
+        "p": "1/2"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "5",
+        "binary_boundary_average": "5",
+        "binary_inverted_cdf": "5",
+        "observed_hex": "0x1.4000000000000p+2"
+      },
+      "reason": "Nominal and binary target lie strictly in the middle support interval, far from tolerance threshold."
+    },
+    {
+      "id": "unsorted_duplicate_tie",
+      "input": {
+        "x": [
+          "4",
+          "-2",
+          "4",
+          "1"
+        ],
+        "w": [
+          "1",
+          "2",
+          "3",
+          "2"
+        ],
+        "p": "1/2"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": true,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "5/2",
+        "binary_boundary_average": "5/2",
+        "binary_inverted_cdf": "1",
+        "observed_hex": "0x1.4000000000000p+1"
+      },
+      "reason": "Aggregate to (-2,2),(1,2),(4,4); target 4 hits cumulative mass at value 1."
+    },
+    {
+      "id": "sixteen_point_tie",
+      "input": {
+        "x": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "w": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "p": "3/8"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": true,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "11/2",
+        "binary_boundary_average": "11/2",
+        "binary_inverted_cdf": "5",
+        "observed_hex": "0x1.6000000000000p+2"
+      },
+      "reason": "Maximum supported length; target 6 hits value 5 and its successor is 6."
+    },
+    {
+      "id": "small_weight_tolerance",
+      "input": {
+        "x": [
+          "2",
+          "8"
+        ],
+        "w": [
+          "1/1099511627776",
+          "1/1099511627776"
+        ],
+        "p": "1/4"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": true
+        },
+        "nominal_boundary_average": "2",
+        "binary_boundary_average": "2",
+        "binary_inverted_cdf": "2",
+        "observed_hex": "0x1.4000000000000p+2"
+      },
+      "reason": "Exact gap 2^-41 is below 1e-10 despite probability being far from 1/2; result is mean 5."
+    },
+    {
+      "id": "unsorted_strict",
+      "input": {
+        "x": [
+          "9",
+          "-3",
+          "5"
+        ],
+        "w": [
+          "1",
+          "1",
+          "2"
+        ],
+        "p": "3/8"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "5",
+        "binary_boundary_average": "5",
+        "binary_inverted_cdf": "5",
+        "observed_hex": "0x1.4000000000000p+2"
+      },
+      "reason": "Sorted masses 1,2,1 give t=3/2 inside the second support interval."
+    },
+    {
+      "id": "adjacent_mean_ambiguous",
+      "input": {
+        "x": [
+          "1",
+          "4503599627370497/4503599627370496"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": true,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "9007199254740993/9007199254740992",
+        "binary_boundary_average": "9007199254740993/9007199254740992",
+        "binary_inverted_cdf": "1",
+        "observed_hex": "0x1.0000000000000p+0",
+        "observed_branch": "BRANCH_UNKNOWN"
+      },
+      "reason": "The exact midpoint 1+2^-53 rounds to 1 by ties-to-even; point and mean return candidates coincide."
+    },
+    {
+      "id": "adjacent_tolerance_hidden",
+      "input": {
+        "x": [
+          "1",
+          "4503599627370497/4503599627370496"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "34359738367/68719476736"
+      },
+      "expected": {
+        "axes": {
+          "definition_difference": false,
+          "input_rounding_changes_value": false,
+          "implementation_value_mismatch": false
+        },
+        "nominal_boundary_average": "1",
+        "binary_boundary_average": "1",
+        "binary_inverted_cdf": "1",
+        "observed_hex": "0x1.0000000000000p+0",
+        "observed_branch": "BRANCH_UNKNOWN"
+      },
+      "reason": "Tolerance selects a mean, but it rounds to strict point 1. Output is correct and cannot identify the executed branch."
+    }
+  ],
+  "unsupported": [
+    {
+      "id": "empty",
+      "input": {
+        "x": [],
+        "w": [],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Length zero."
+    },
+    {
+      "id": "seventeen",
+      "input": {
+        "x": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "w": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Length exceeds 16."
+    },
+    {
+      "id": "zero_weight",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "0",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Weights must be strictly positive."
+    },
+    {
+      "id": "negative_weight",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "-1",
+          "2"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Negative weight."
+    },
+    {
+      "id": "p_zero",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "0"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Probability endpoint excluded."
+    },
+    {
+      "id": "p_one",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Probability endpoint excluded."
+    },
+    {
+      "id": "p_outside",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "3/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Probability outside interval."
+    },
+    {
+      "id": "p_rounds_to_one",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1267650600228229401496703205375/1267650600228229401496703205376"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Nominal probability is interior but binary conversion is 1."
+    },
+    {
+      "id": "length_mismatch",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Weights and values must have equal length."
+    },
+    {
+      "id": "nested_x",
+      "input": {
+        "x": [
+          [
+            "0"
+          ],
+          [
+            "4"
+          ]
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Not one-dimensional scalar input."
+    },
+    {
+      "id": "boolean_scalar",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": true
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Boolean is not a rational scalar."
+    },
+    {
+      "id": "numeric_fraction",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": 0.5
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Nonintegral JSON numbers lose exact intent; use strings."
+    },
+    {
+      "id": "nan_string",
+      "input": {
+        "x": [
+          "NaN",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Nonfinite is excluded."
+    },
+    {
+      "id": "infinity_string",
+      "input": {
+        "x": [
+          "Infinity",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Nonfinite is excluded."
+    },
+    {
+      "id": "zero_denominator",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/0"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Undefined rational."
+    },
+    {
+      "id": "numerator_129bits",
+      "input": {
+        "x": [
+          "340282366920938463463374607431768211456",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Normalized numerator exceeds 128 bits."
+    },
+    {
+      "id": "denominator_129bits",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1/340282366920938463463374607431768211456",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Normalized denominator exceeds 128 bits."
+    },
+    {
+      "id": "oversize_scalar",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Scalar string exceeds 96 characters."
+    },
+    {
+      "id": "unknown_field",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2",
+        "method": "linear"
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Unknown fields must not silently alter contract."
+    },
+    {
+      "id": "missing_field",
+      "input": {
+        "x": [
+          "0",
+          "4"
+        ],
+        "w": [
+          "1",
+          "1"
+        ]
+      },
+      "expected_status": "UNSUPPORTED",
+      "reason": "Required probability missing."
+    },
+    {
+      "id": "top_level_list",
+      "input": [
+        {
+          "x": [
+            "0",
+            "4"
+          ],
+          "w": [
+            "1",
+            "1"
+          ],
+          "p": "1/2"
+        }
+      ],
+      "expected_status": "UNSUPPORTED",
+      "reason": "Input must be one object."
+    }
+  ]
+}

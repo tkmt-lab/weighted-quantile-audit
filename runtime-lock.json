@@ -1,0 +1,13 @@
+{
+  "python_minor": "3.12",
+  "python_observed": "3.12.14",
+  "distributions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.15.0",
+    "patsy": "1.0.3",
+    "formulaic": "1.2.2"
+  },
+  "weightstats_sha256": "ac7beb736679a0d37901e9edc8beceac280b06d332672dbf0621cd9d780dcdc4"
+}

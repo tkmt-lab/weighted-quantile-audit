@@ -1,0 +1,18 @@
+{
+  "title": "Weighted quantile audit",
+  "upload_type": "software",
+  "version": "0.1.0",
+  "creators": [
+    {
+      "name": "Takimoto, Tatsuhiko"
+    }
+  ],
+  "description": "Audit a small positive-weight sample against the documented statsmodels boundary-average quantile rule. A JSON record binds rational and binary64 inputs to four exact certificates, the library observation and a separate checker. Code is licensed under Apache-2.0 and original documentation and data under CC-BY-4.0.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "weighted quantiles",
+    "exact arithmetic",
+    "statsmodels",
+    "reproducibility"
+  ]
+}

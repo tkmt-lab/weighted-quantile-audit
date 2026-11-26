@@ -1,0 +1,3996 @@
+{
+  "source_sha256": {
+    "results.json": "c5664082629cd3d3c3908ece884ae7ff9fd5a3fd1f55f497cf64410003f46773",
+    "shrink-results.json": "186bfcf731ef5fd925033b40a9ed4adc632a21387f3105883f98f22ca8b0625d"
+  },
+  "records": [
+    {
+      "id": "near-34--1",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "8589934591/17179869184"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "8589934591/8589934592",
+        "W": "2",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "8589934591/8589934592",
+        "W": "2",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "near-34--1-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "8589934591/17179869184"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1024",
+        "target": "8589934591/8388608",
+        "W": "2048",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1024",
+        "target": "8589934591/8388608",
+        "W": "2048",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "near-34-0",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-34-0-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1024",
+        "target": "1024",
+        "W": "2048",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1024",
+        "target": "1024",
+        "W": "2048",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-34-1",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "8589934593/17179869184"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "2",
+        "target": "8589934593/8589934592",
+        "W": "2",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "2",
+        "target": "8589934593/8589934592",
+        "W": "2",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "near-34-1-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "8589934593/17179869184"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1024",
+        "U": "2048",
+        "target": "8589934593/8388608",
+        "W": "2048",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1024",
+        "U": "2048",
+        "target": "8589934593/8388608",
+        "W": "2048",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "near-35--1",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "17179869183/17179869184",
+        "W": "2",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "17179869183/17179869184",
+        "W": "2",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": true,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-35--1-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1024",
+        "target": "17179869183/16777216",
+        "W": "2048",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1024",
+        "target": "17179869183/16777216",
+        "W": "2048",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "near-35-0",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-35-0-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1024",
+        "target": "1024",
+        "W": "2048",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1024",
+        "target": "1024",
+        "W": "2048",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-35-1",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "2",
+        "target": "17179869185/17179869184",
+        "W": "2",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "2",
+        "target": "17179869185/17179869184",
+        "W": "2",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "near-35-1-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1024",
+        "U": "2048",
+        "target": "17179869185/16777216",
+        "W": "2048",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1024",
+        "U": "2048",
+        "target": "17179869185/16777216",
+        "W": "2048",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "near-40--1",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "549755813887/1099511627776"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "549755813887/549755813888",
+        "W": "2",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "549755813887/549755813888",
+        "W": "2",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": true,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-40--1-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "549755813887/1099511627776"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1024",
+        "target": "549755813887/536870912",
+        "W": "2048",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1024",
+        "target": "549755813887/536870912",
+        "W": "2048",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "near-40-0",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-40-0-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1024",
+        "target": "1024",
+        "W": "2048",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "2",
+        "L": "0",
+        "U": "1024",
+        "target": "1024",
+        "W": "2048",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "near-40-1",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "549755813889/1099511627776"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "2",
+        "target": "549755813889/549755813888",
+        "W": "2",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "2",
+        "target": "549755813889/549755813888",
+        "W": "2",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "near-40-1-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1024",
+          "1024"
+        ],
+        "p": "549755813889/1099511627776"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1024",
+        "U": "2048",
+        "target": "549755813889/536870912",
+        "W": "2048",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1024",
+        "U": "2048",
+        "target": "549755813889/536870912",
+        "W": "2048",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "small-unit",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1/1099511627776",
+          "1/1099511627776"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1/1099511627776",
+        "target": "1/2199023255552",
+        "W": "1/549755813888",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1/1099511627776",
+        "target": "1/2199023255552",
+        "W": "1/549755813888",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": true,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "small-unit-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "2"
+        ],
+        "w": [
+          "1/1073741824",
+          "1/1073741824"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1/1073741824",
+        "target": "1/2147483648",
+        "W": "1/536870912",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1/1073741824",
+        "target": "1/2147483648",
+        "W": "1/536870912",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "duplicate",
+      "nominal_input": {
+        "x": [
+          "0",
+          "0",
+          "2"
+        ],
+        "w": [
+          "1",
+          "1",
+          "2"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "17179869183/8589934592",
+        "W": "4",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "17179869183/8589934592",
+        "W": "4",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "duplicate-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "0",
+          "2"
+        ],
+        "w": [
+          "2",
+          "2",
+          "4"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "17179869183/4294967296",
+        "W": "8",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "17179869183/4294967296",
+        "W": "8",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "round-decimal",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1"
+        ],
+        "w": [
+          "3",
+          "2"
+        ],
+        "p": "3/5"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "3",
+        "target": "27021597764222975/9007199254740992",
+        "W": "5",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "1",
+        "L": "0",
+        "U": "3",
+        "target": "3",
+        "W": "5",
+        "value": "1/2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": true,
+        "implementation_value_mismatch": true,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.5,
+        "release": 0.5
+      }
+    },
+    {
+      "id": "round-decimal-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1"
+        ],
+        "w": [
+          "6",
+          "4"
+        ],
+        "p": "3/5"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "6",
+        "target": "27021597764222975/4503599627370496",
+        "W": "10",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "1",
+        "L": "0",
+        "U": "6",
+        "target": "6",
+        "W": "10",
+        "value": "1/2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": true,
+        "implementation_value_mismatch": true,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.5,
+        "release": 0.5
+      }
+    },
+    {
+      "id": "round-to-tie",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "576460752303423489/1152921504606846976"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "1",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "1/2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "1",
+        "U": "2",
+        "target": "576460752303423489/576460752303423488",
+        "W": "2",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": true,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.5,
+        "release": 0.5
+      }
+    },
+    {
+      "id": "round-to-tie-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1"
+        ],
+        "w": [
+          "2",
+          "2"
+        ],
+        "p": "576460752303423489/1152921504606846976"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "0",
+        "right": "1",
+        "L": "0",
+        "U": "2",
+        "target": "2",
+        "W": "4",
+        "value": "1/2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "2",
+        "U": "4",
+        "target": "576460752303423489/288230376151711744",
+        "W": "4",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": true,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.5,
+        "release": 0.5
+      }
+    },
+    {
+      "id": "ambiguous-mean",
+      "nominal_input": {
+        "x": [
+          "1",
+          "4503599627370497/4503599627370496"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "1",
+        "right": "4503599627370497/4503599627370496",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "9007199254740993/9007199254740992"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "1",
+        "right": "4503599627370497/4503599627370496",
+        "L": "0",
+        "U": "1",
+        "target": "1",
+        "W": "2",
+        "value": "9007199254740993/9007199254740992"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "ambiguous-mean-scaled",
+      "nominal_input": {
+        "x": [
+          "1",
+          "4503599627370497/4503599627370496"
+        ],
+        "w": [
+          "2",
+          "2"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "tie",
+        "left": "1",
+        "right": "4503599627370497/4503599627370496",
+        "L": "0",
+        "U": "2",
+        "target": "2",
+        "W": "4",
+        "value": "9007199254740993/9007199254740992"
+      },
+      "nominal_certificate": {
+        "kind": "tie",
+        "left": "1",
+        "right": "4503599627370497/4503599627370496",
+        "L": "0",
+        "U": "2",
+        "target": "2",
+        "W": "4",
+        "value": "9007199254740993/9007199254740992"
+      },
+      "axes": {
+        "definition_difference": true,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "ordinary",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1",
+          "4"
+        ],
+        "w": [
+          "2",
+          "1",
+          "1"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "1",
+        "W": "4",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "1",
+        "W": "4",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "ordinary-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1",
+          "4"
+        ],
+        "w": [
+          "4",
+          "2",
+          "2"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "2",
+        "W": "8",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "2",
+        "W": "8",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "single",
+      "nominal_input": {
+        "x": [
+          "1"
+        ],
+        "w": [
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "1/2",
+        "W": "1",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "1/2",
+        "W": "1",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "single-scaled",
+      "nominal_input": {
+        "x": [
+          "1"
+        ],
+        "w": [
+          "2"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-00",
+      "nominal_input": {
+        "x": [
+          "-2",
+          "3",
+          "2",
+          "0",
+          "4"
+        ],
+        "w": [
+          "2",
+          "5/2",
+          "1/4",
+          "5/8",
+          "4"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "23/8",
+        "U": "43/8",
+        "target": "1288490188875/274877906944",
+        "W": "75/8",
+        "value": "3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "23/8",
+        "U": "43/8",
+        "target": "1288490188875/274877906944",
+        "W": "75/8",
+        "value": "3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 3.0,
+        "release": 3.0
+      }
+    },
+    {
+      "id": "holdout-00-scaled",
+      "nominal_input": {
+        "x": [
+          "-2",
+          "3",
+          "2",
+          "0",
+          "4"
+        ],
+        "w": [
+          "16",
+          "20",
+          "2",
+          "5",
+          "32"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "23",
+        "U": "43",
+        "target": "1288490188875/34359738368",
+        "W": "75",
+        "value": "3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "23",
+        "U": "43",
+        "target": "1288490188875/34359738368",
+        "W": "75",
+        "value": "3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 3.0,
+        "release": 3.0
+      }
+    },
+    {
+      "id": "holdout-01",
+      "nominal_input": {
+        "x": [
+          "0"
+        ],
+        "w": [
+          "5/2"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "5/2",
+        "target": "5/8",
+        "W": "5/2",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "5/2",
+        "target": "5/8",
+        "W": "5/2",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-01-scaled",
+      "nominal_input": {
+        "x": [
+          "0"
+        ],
+        "w": [
+          "5"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "5",
+        "target": "5/4",
+        "W": "5",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "5",
+        "target": "5/4",
+        "W": "5",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-02",
+      "nominal_input": {
+        "x": [
+          "3",
+          "-3",
+          "3",
+          "-3",
+          "0",
+          "-4",
+          "3",
+          "2"
+        ],
+        "w": [
+          "1/4",
+          "3/16",
+          "1/4",
+          "5/8",
+          "1/4",
+          "5/4",
+          "1/4",
+          "1"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-4",
+        "right": null,
+        "L": "0",
+        "U": "5/4",
+        "target": "65/64",
+        "W": "65/16",
+        "value": "-4"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-4",
+        "right": null,
+        "L": "0",
+        "U": "5/4",
+        "target": "65/64",
+        "W": "65/16",
+        "value": "-4"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -4.0,
+        "release": -4.0
+      }
+    },
+    {
+      "id": "holdout-02-scaled",
+      "nominal_input": {
+        "x": [
+          "3",
+          "-3",
+          "3",
+          "-3",
+          "0",
+          "-4",
+          "3",
+          "2"
+        ],
+        "w": [
+          "2",
+          "3/2",
+          "2",
+          "5",
+          "2",
+          "10",
+          "2",
+          "8"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-4",
+        "right": null,
+        "L": "0",
+        "U": "10",
+        "target": "65/8",
+        "W": "65/2",
+        "value": "-4"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-4",
+        "right": null,
+        "L": "0",
+        "U": "10",
+        "target": "65/8",
+        "W": "65/2",
+        "value": "-4"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -4.0,
+        "release": -4.0
+      }
+    },
+    {
+      "id": "holdout-03",
+      "nominal_input": {
+        "x": [
+          "5",
+          "-1",
+          "-3",
+          "-2",
+          "2",
+          "1",
+          "3",
+          "0"
+        ],
+        "w": [
+          "5/16",
+          "1/4",
+          "3/2",
+          "1",
+          "5/2",
+          "5/2",
+          "3/4",
+          "2"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "19/4",
+        "U": "29/4",
+        "target": "2972117369005/549755813888",
+        "W": "173/16",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "19/4",
+        "U": "29/4",
+        "target": "2972117369005/549755813888",
+        "W": "173/16",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-03-scaled",
+      "nominal_input": {
+        "x": [
+          "5",
+          "-1",
+          "-3",
+          "-2",
+          "2",
+          "1",
+          "3",
+          "0"
+        ],
+        "w": [
+          "5/8",
+          "1/2",
+          "3",
+          "2",
+          "5",
+          "5",
+          "3/2",
+          "4"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "19/2",
+        "U": "29/2",
+        "target": "2972117369005/274877906944",
+        "W": "173/8",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "19/2",
+        "U": "29/2",
+        "target": "2972117369005/274877906944",
+        "W": "173/8",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-04",
+      "nominal_input": {
+        "x": [
+          "2",
+          "-4",
+          "-1",
+          "-2",
+          "2",
+          "-1",
+          "5"
+        ],
+        "w": [
+          "1",
+          "1/8",
+          "1/16",
+          "3/16",
+          "2",
+          "5/8",
+          "1/4"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "4",
+        "target": "51/16",
+        "W": "17/4",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "1",
+        "U": "4",
+        "target": "51/16",
+        "W": "17/4",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-04-scaled",
+      "nominal_input": {
+        "x": [
+          "2",
+          "-4",
+          "-1",
+          "-2",
+          "2",
+          "-1",
+          "5"
+        ],
+        "w": [
+          "8",
+          "1",
+          "1/2",
+          "3/2",
+          "16",
+          "5",
+          "2"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "8",
+        "U": "32",
+        "target": "51/2",
+        "W": "34",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "8",
+        "U": "32",
+        "target": "51/2",
+        "W": "34",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-05",
+      "nominal_input": {
+        "x": [
+          "4",
+          "-2",
+          "-1",
+          "3",
+          "4",
+          "-1"
+        ],
+        "w": [
+          "5/8",
+          "3",
+          "1/4",
+          "1",
+          "1/8",
+          "1/8"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-2",
+        "right": null,
+        "L": "0",
+        "U": "3",
+        "target": "41/16",
+        "W": "41/8",
+        "value": "-2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-2",
+        "right": null,
+        "L": "0",
+        "U": "3",
+        "target": "41/16",
+        "W": "41/8",
+        "value": "-2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -2.0,
+        "release": -2.0
+      }
+    },
+    {
+      "id": "holdout-05-scaled",
+      "nominal_input": {
+        "x": [
+          "4",
+          "-2",
+          "-1",
+          "3",
+          "4",
+          "-1"
+        ],
+        "w": [
+          "5/4",
+          "6",
+          "1/2",
+          "2",
+          "1/4",
+          "1/4"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-2",
+        "right": null,
+        "L": "0",
+        "U": "6",
+        "target": "41/8",
+        "W": "41/4",
+        "value": "-2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-2",
+        "right": null,
+        "L": "0",
+        "U": "6",
+        "target": "41/8",
+        "W": "41/4",
+        "value": "-2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -2.0,
+        "release": -2.0
+      }
+    },
+    {
+      "id": "holdout-06",
+      "nominal_input": {
+        "x": [
+          "2",
+          "1",
+          "-3",
+          "-4",
+          "-3",
+          "-3"
+        ],
+        "w": [
+          "3/4",
+          "2",
+          "1/8",
+          "1",
+          "5/8",
+          "1"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "1",
+        "U": "11/4",
+        "target": "188978561013/68719476736",
+        "W": "11/2",
+        "value": "-3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "1",
+        "U": "11/4",
+        "target": "188978561013/68719476736",
+        "W": "11/2",
+        "value": "-3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -3.0,
+        "release": -3.0
+      }
+    },
+    {
+      "id": "holdout-06-scaled",
+      "nominal_input": {
+        "x": [
+          "2",
+          "1",
+          "-3",
+          "-4",
+          "-3",
+          "-3"
+        ],
+        "w": [
+          "6",
+          "16",
+          "1",
+          "8",
+          "5",
+          "8"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "8",
+        "U": "22",
+        "target": "188978561013/8589934592",
+        "W": "44",
+        "value": "-3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "8",
+        "U": "22",
+        "target": "188978561013/8589934592",
+        "W": "44",
+        "value": "-3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -3.0,
+        "release": -3.0
+      }
+    },
+    {
+      "id": "holdout-07",
+      "nominal_input": {
+        "x": [
+          "1",
+          "4",
+          "5",
+          "-2",
+          "0",
+          "2",
+          "3"
+        ],
+        "w": [
+          "3/8",
+          "1",
+          "1/2",
+          "1",
+          "3/4",
+          "3",
+          "2"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "17/8",
+        "U": "41/8",
+        "target": "1185410973627/274877906944",
+        "W": "69/8",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "17/8",
+        "U": "41/8",
+        "target": "1185410973627/274877906944",
+        "W": "69/8",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-07-scaled",
+      "nominal_input": {
+        "x": [
+          "1",
+          "4",
+          "5",
+          "-2",
+          "0",
+          "2",
+          "3"
+        ],
+        "w": [
+          "384",
+          "1024",
+          "512",
+          "1024",
+          "768",
+          "3072",
+          "2048"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "2176",
+        "U": "5248",
+        "target": "1185410973627/268435456",
+        "W": "8832",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "2176",
+        "U": "5248",
+        "target": "1185410973627/268435456",
+        "W": "8832",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-08",
+      "nominal_input": {
+        "x": [
+          "1",
+          "4",
+          "3",
+          "-1",
+          "4"
+        ],
+        "w": [
+          "5/4",
+          "3/16",
+          "1",
+          "5",
+          "5/16"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "5",
+        "U": "25/4",
+        "target": "93/16",
+        "W": "31/4",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "5",
+        "U": "25/4",
+        "target": "93/16",
+        "W": "31/4",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-08-scaled",
+      "nominal_input": {
+        "x": [
+          "1",
+          "4",
+          "3",
+          "-1",
+          "4"
+        ],
+        "w": [
+          "5/2",
+          "3/8",
+          "2",
+          "10",
+          "5/8"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "10",
+        "U": "25/2",
+        "target": "93/8",
+        "W": "31/2",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "10",
+        "U": "25/2",
+        "target": "93/8",
+        "W": "31/2",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-09",
+      "nominal_input": {
+        "x": [
+          "2",
+          "-2",
+          "4",
+          "5",
+          "5",
+          "0",
+          "4"
+        ],
+        "w": [
+          "3/16",
+          "1",
+          "1/2",
+          "3",
+          "1/8",
+          "5/16",
+          "1"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "3/2",
+        "U": "3",
+        "target": "49/32",
+        "W": "49/8",
+        "value": "4"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "3/2",
+        "U": "3",
+        "target": "49/32",
+        "W": "49/8",
+        "value": "4"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 4.0,
+        "release": 4.0
+      }
+    },
+    {
+      "id": "holdout-09-scaled",
+      "nominal_input": {
+        "x": [
+          "2",
+          "-2",
+          "4",
+          "5",
+          "5",
+          "0",
+          "4"
+        ],
+        "w": [
+          "3/8",
+          "2",
+          "1",
+          "6",
+          "1/4",
+          "5/8",
+          "2"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "3",
+        "U": "6",
+        "target": "49/16",
+        "W": "49/4",
+        "value": "4"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "3",
+        "U": "6",
+        "target": "49/16",
+        "W": "49/4",
+        "value": "4"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 4.0,
+        "release": 4.0
+      }
+    },
+    {
+      "id": "holdout-10",
+      "nominal_input": {
+        "x": [
+          "-3",
+          "5",
+          "-1",
+          "-4",
+          "-4"
+        ],
+        "w": [
+          "3/16",
+          "2",
+          "4",
+          "3/16",
+          "1/4"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "5",
+        "right": null,
+        "L": "37/8",
+        "U": "53/8",
+        "target": "159/32",
+        "W": "53/8",
+        "value": "5"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "5",
+        "right": null,
+        "L": "37/8",
+        "U": "53/8",
+        "target": "159/32",
+        "W": "53/8",
+        "value": "5"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 5.0,
+        "release": 5.0
+      }
+    },
+    {
+      "id": "holdout-10-scaled",
+      "nominal_input": {
+        "x": [
+          "-3",
+          "5",
+          "-1",
+          "-4",
+          "-4"
+        ],
+        "w": [
+          "3/2",
+          "16",
+          "32",
+          "3/2",
+          "2"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "5",
+        "right": null,
+        "L": "37",
+        "U": "53",
+        "target": "159/4",
+        "W": "53",
+        "value": "5"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "5",
+        "right": null,
+        "L": "37",
+        "U": "53",
+        "target": "159/4",
+        "W": "53",
+        "value": "5"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 5.0,
+        "release": 5.0
+      }
+    },
+    {
+      "id": "holdout-11",
+      "nominal_input": {
+        "x": [
+          "2",
+          "-4",
+          "3",
+          "4"
+        ],
+        "w": [
+          "3",
+          "3/16",
+          "1/4",
+          "1/2"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "3/16",
+        "U": "51/16",
+        "target": "63/64",
+        "W": "63/16",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "3/16",
+        "U": "51/16",
+        "target": "63/64",
+        "W": "63/16",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-11-scaled",
+      "nominal_input": {
+        "x": [
+          "2",
+          "-4",
+          "3",
+          "4"
+        ],
+        "w": [
+          "6",
+          "3/8",
+          "1/2",
+          "1"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "3/8",
+        "U": "51/8",
+        "target": "63/32",
+        "W": "63/8",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "3/8",
+        "U": "51/8",
+        "target": "63/32",
+        "W": "63/8",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-12",
+      "nominal_input": {
+        "x": [
+          "2",
+          "5"
+        ],
+        "w": [
+          "1/2",
+          "1/8"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "0",
+        "U": "1/2",
+        "target": "15/32",
+        "W": "5/8",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "0",
+        "U": "1/2",
+        "target": "15/32",
+        "W": "5/8",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-12-scaled",
+      "nominal_input": {
+        "x": [
+          "2",
+          "5"
+        ],
+        "w": [
+          "1",
+          "1/4"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "15/16",
+        "W": "5/4",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "15/16",
+        "W": "5/4",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-13",
+      "nominal_input": {
+        "x": [
+          "-4",
+          "3",
+          "-1",
+          "-2",
+          "2",
+          "0",
+          "2",
+          "1"
+        ],
+        "w": [
+          "3/16",
+          "1/16",
+          "5/2",
+          "5/4",
+          "4",
+          "1/8",
+          "1/2",
+          "1/8"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "67/16",
+        "U": "139/16",
+        "target": "601295421405/137438953472",
+        "W": "35/4",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "67/16",
+        "U": "139/16",
+        "target": "601295421405/137438953472",
+        "W": "35/4",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-13-scaled",
+      "nominal_input": {
+        "x": [
+          "-4",
+          "3",
+          "-1",
+          "-2",
+          "2",
+          "0",
+          "2",
+          "1"
+        ],
+        "w": [
+          "3/8",
+          "1/8",
+          "5",
+          "5/2",
+          "8",
+          "1/4",
+          "1",
+          "1/4"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "67/8",
+        "U": "139/8",
+        "target": "601295421405/68719476736",
+        "W": "35/2",
+        "value": "2"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "2",
+        "right": null,
+        "L": "67/8",
+        "U": "139/8",
+        "target": "601295421405/68719476736",
+        "W": "35/2",
+        "value": "2"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 2.0,
+        "release": 2.0
+      }
+    },
+    {
+      "id": "holdout-14",
+      "nominal_input": {
+        "x": [
+          "1",
+          "-4",
+          "4",
+          "-4",
+          "1",
+          "-1",
+          "0"
+        ],
+        "w": [
+          "3",
+          "1/2",
+          "2",
+          "1/2",
+          "3",
+          "1",
+          "5/4"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "2",
+        "U": "13/4",
+        "target": "45/16",
+        "W": "45/4",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "2",
+        "U": "13/4",
+        "target": "45/16",
+        "W": "45/4",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-14-scaled",
+      "nominal_input": {
+        "x": [
+          "1",
+          "-4",
+          "4",
+          "-4",
+          "1",
+          "-1",
+          "0"
+        ],
+        "w": [
+          "24",
+          "4",
+          "16",
+          "4",
+          "24",
+          "8",
+          "10"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "16",
+        "U": "26",
+        "target": "45/2",
+        "W": "90",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "16",
+        "U": "26",
+        "target": "45/2",
+        "W": "90",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-15",
+      "nominal_input": {
+        "x": [
+          "1",
+          "2"
+        ],
+        "w": [
+          "3",
+          "1"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "3",
+        "target": "17179869185/8589934592",
+        "W": "4",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "3",
+        "target": "17179869185/8589934592",
+        "W": "4",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-15-scaled",
+      "nominal_input": {
+        "x": [
+          "1",
+          "2"
+        ],
+        "w": [
+          "24",
+          "8"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "24",
+        "target": "17179869185/1073741824",
+        "W": "32",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "24",
+        "target": "17179869185/1073741824",
+        "W": "32",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-16",
+      "nominal_input": {
+        "x": [
+          "0",
+          "-2",
+          "1",
+          "5",
+          "1",
+          "-2",
+          "-1"
+        ],
+        "w": [
+          "3/2",
+          "1",
+          "1",
+          "3/4",
+          "5/2",
+          "5/8",
+          "4"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "45/8",
+        "U": "57/8",
+        "target": "1563368095835/274877906944",
+        "W": "91/8",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "45/8",
+        "U": "57/8",
+        "target": "1563368095835/274877906944",
+        "W": "91/8",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-16-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "-2",
+          "1",
+          "5",
+          "1",
+          "-2",
+          "-1"
+        ],
+        "w": [
+          "1536",
+          "1024",
+          "1024",
+          "768",
+          "2560",
+          "640",
+          "4096"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "5760",
+        "U": "7296",
+        "target": "1563368095835/268435456",
+        "W": "11648",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "5760",
+        "U": "7296",
+        "target": "1563368095835/268435456",
+        "W": "11648",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-17",
+      "nominal_input": {
+        "x": [
+          "-3",
+          "0",
+          "1"
+        ],
+        "w": [
+          "1/4",
+          "1/8",
+          "2"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "3/8",
+        "U": "19/8",
+        "target": "19/32",
+        "W": "19/8",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "3/8",
+        "U": "19/8",
+        "target": "19/32",
+        "W": "19/8",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-17-scaled",
+      "nominal_input": {
+        "x": [
+          "-3",
+          "0",
+          "1"
+        ],
+        "w": [
+          "256",
+          "128",
+          "2048"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "384",
+        "U": "2432",
+        "target": "608",
+        "W": "2432",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "384",
+        "U": "2432",
+        "target": "608",
+        "W": "2432",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "holdout-18",
+      "nominal_input": {
+        "x": [
+          "1",
+          "5",
+          "5",
+          "-4",
+          "-1",
+          "-1",
+          "-4"
+        ],
+        "w": [
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/4",
+          "2",
+          "1",
+          "1"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "5/4",
+        "U": "17/4",
+        "target": "1288490188725/549755813888",
+        "W": "75/16",
+        "value": "-1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "5/4",
+        "U": "17/4",
+        "target": "1288490188725/549755813888",
+        "W": "75/16",
+        "value": "-1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -1.0,
+        "release": -1.0
+      }
+    },
+    {
+      "id": "holdout-18-scaled",
+      "nominal_input": {
+        "x": [
+          "1",
+          "5",
+          "5",
+          "-4",
+          "-1",
+          "-1",
+          "-4"
+        ],
+        "w": [
+          "256",
+          "128",
+          "64",
+          "256",
+          "2048",
+          "1024",
+          "1024"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "1280",
+        "U": "4352",
+        "target": "1288490188725/536870912",
+        "W": "4800",
+        "value": "-1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "1280",
+        "U": "4352",
+        "target": "1288490188725/536870912",
+        "W": "4800",
+        "value": "-1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -1.0,
+        "release": -1.0
+      }
+    },
+    {
+      "id": "holdout-19",
+      "nominal_input": {
+        "x": [
+          "3",
+          "1",
+          "4"
+        ],
+        "w": [
+          "2",
+          "1/4",
+          "2"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "1/4",
+        "U": "9/4",
+        "target": "17/16",
+        "W": "17/4",
+        "value": "3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "1/4",
+        "U": "9/4",
+        "target": "17/16",
+        "W": "17/4",
+        "value": "3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 3.0,
+        "release": 3.0
+      }
+    },
+    {
+      "id": "holdout-19-scaled",
+      "nominal_input": {
+        "x": [
+          "3",
+          "1",
+          "4"
+        ],
+        "w": [
+          "16",
+          "2",
+          "16"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "2",
+        "U": "18",
+        "target": "17/2",
+        "W": "34",
+        "value": "3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "3",
+        "right": null,
+        "L": "2",
+        "U": "18",
+        "target": "17/2",
+        "W": "34",
+        "value": "3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 3.0,
+        "release": 3.0
+      }
+    },
+    {
+      "id": "holdout-20",
+      "nominal_input": {
+        "x": [
+          "0",
+          "0"
+        ],
+        "w": [
+          "1/4",
+          "1/4"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1/2",
+        "target": "1/8",
+        "W": "1/2",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1/2",
+        "target": "1/8",
+        "W": "1/2",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-20-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "0"
+        ],
+        "w": [
+          "2",
+          "2"
+        ],
+        "p": "1/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "1",
+        "W": "4",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "1",
+        "W": "4",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    },
+    {
+      "id": "holdout-21",
+      "nominal_input": {
+        "x": [
+          "-4",
+          "3",
+          "-3",
+          "-3",
+          "2",
+          "3"
+        ],
+        "w": [
+          "5/4",
+          "1",
+          "1/4",
+          "5/8",
+          "1/2",
+          "5/16"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "5/4",
+        "U": "17/8",
+        "target": "1082331758655/549755813888",
+        "W": "63/16",
+        "value": "-3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "5/4",
+        "U": "17/8",
+        "target": "1082331758655/549755813888",
+        "W": "63/16",
+        "value": "-3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -3.0,
+        "release": -3.0
+      }
+    },
+    {
+      "id": "holdout-21-scaled",
+      "nominal_input": {
+        "x": [
+          "-4",
+          "3",
+          "-3",
+          "-3",
+          "2",
+          "3"
+        ],
+        "w": [
+          "1280",
+          "1024",
+          "256",
+          "640",
+          "512",
+          "320"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "1280",
+        "U": "2176",
+        "target": "1082331758655/536870912",
+        "W": "4032",
+        "value": "-3"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-3",
+        "right": null,
+        "L": "1280",
+        "U": "2176",
+        "target": "1082331758655/536870912",
+        "W": "4032",
+        "value": "-3"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -3.0,
+        "release": -3.0
+      }
+    },
+    {
+      "id": "holdout-22",
+      "nominal_input": {
+        "x": [
+          "4",
+          "4",
+          "4",
+          "-2"
+        ],
+        "w": [
+          "5/4",
+          "1",
+          "1/4",
+          "5/2"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "5/2",
+        "U": "5",
+        "target": "85899345925/34359738368",
+        "W": "5",
+        "value": "4"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "5/2",
+        "U": "5",
+        "target": "85899345925/34359738368",
+        "W": "5",
+        "value": "4"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 4.0,
+        "release": 4.0
+      }
+    },
+    {
+      "id": "holdout-22-scaled",
+      "nominal_input": {
+        "x": [
+          "4",
+          "4",
+          "4",
+          "-2"
+        ],
+        "w": [
+          "10",
+          "8",
+          "2",
+          "20"
+        ],
+        "p": "17179869185/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "20",
+        "U": "40",
+        "target": "85899345925/4294967296",
+        "W": "40",
+        "value": "4"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "4",
+        "right": null,
+        "L": "20",
+        "U": "40",
+        "target": "85899345925/4294967296",
+        "W": "40",
+        "value": "4"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 4.0,
+        "release": 4.0
+      }
+    },
+    {
+      "id": "holdout-23",
+      "nominal_input": {
+        "x": [
+          "-1"
+        ],
+        "w": [
+          "4"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "3",
+        "W": "4",
+        "value": "-1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "0",
+        "U": "4",
+        "target": "3",
+        "W": "4",
+        "value": "-1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -1.0,
+        "release": -1.0
+      }
+    },
+    {
+      "id": "holdout-23-scaled",
+      "nominal_input": {
+        "x": [
+          "-1"
+        ],
+        "w": [
+          "4096"
+        ],
+        "p": "3/4"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "0",
+        "U": "4096",
+        "target": "3072",
+        "W": "4096",
+        "value": "-1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "-1",
+        "right": null,
+        "L": "0",
+        "U": "4096",
+        "target": "3072",
+        "W": "4096",
+        "value": "-1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": -1.0,
+        "release": -1.0
+      }
+    },
+    {
+      "id": "public-singleton",
+      "nominal_input": {
+        "x": [
+          "1"
+        ],
+        "w": [
+          "1"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "1/2",
+        "W": "1",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "1/2",
+        "W": "1",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "public-singleton-scaled",
+      "nominal_input": {
+        "x": [
+          "1"
+        ],
+        "w": [
+          "2"
+        ],
+        "p": "1/2"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "1",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "1",
+        "W": "2",
+        "value": "1"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 1.0,
+        "release": 1.0
+      }
+    },
+    {
+      "id": "shrunk",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1"
+        ],
+        "w": [
+          "1",
+          "1"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "17179869183/17179869184",
+        "W": "2",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "1",
+        "target": "17179869183/17179869184",
+        "W": "2",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": true,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.5,
+        "release": 0.5
+      }
+    },
+    {
+      "id": "shrunk-scaled",
+      "nominal_input": {
+        "x": [
+          "0",
+          "1"
+        ],
+        "w": [
+          "2",
+          "2"
+        ],
+        "p": "17179869183/34359738368"
+      },
+      "certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "17179869183/8589934592",
+        "W": "4",
+        "value": "0"
+      },
+      "nominal_certificate": {
+        "kind": "point",
+        "left": "0",
+        "right": null,
+        "L": "0",
+        "U": "2",
+        "target": "17179869183/8589934592",
+        "W": "4",
+        "value": "0"
+      },
+      "axes": {
+        "definition_difference": false,
+        "input_rounding_changes_value": false,
+        "implementation_value_mismatch": false,
+        "numpy_inverted_cdf_mismatch": false
+      },
+      "observed": {
+        "main": 0.0,
+        "release": 0.0
+      }
+    }
+  ]
+}

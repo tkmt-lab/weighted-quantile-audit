@@ -1,0 +1,31 @@
+{
+  "claims": [
+    {
+      "id": "two-point-scale",
+      "statement": "For values 0 and 2 at p = 1/4, statsmodels 0.15.0 returns 1 with equal weights 2^-35 and 0 after normalization. The exact boundary-average answer is 0 at both scales.",
+      "evidence": [
+        "examples/two_point_tiny.json",
+        "examples/two_point_normalized.json",
+        "evidence/two_point_tiny.json",
+        "tests.py"
+      ],
+      "scope": "These two inputs in the pinned runtime."
+    },
+    {
+      "id": "witness-check",
+      "statement": "The checker verifies the two definitions on both the nominal and binary inputs. Replay also compares saved observations with fresh output from the pinned library.",
+      "evidence": [
+        "checker.py",
+        "replay.py",
+        "evidence/witnesses.json",
+        "MATHEMATICS.md"
+      ],
+      "scope": "The documented one-dimensional, positive-weight input domain.",
+      "nonclaims": [
+        "formal verification of statsmodels",
+        "authentication of a historical run",
+        "guaranteed branch identification for every output"
+      ]
+    }
+  ]
+}
